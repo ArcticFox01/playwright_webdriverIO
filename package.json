@@ -1,0 +1,31 @@
+{
+  "name": "playwright-webdriverio-appium",
+  "version": "1.0.0",
+  "description": "Playwright + WebdriverIO + Appium mobile automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "webdriverio",
+    "appium",
+    "mobile",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.19.41",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.0",
+    "webdriverio": "^9.27.1"
+  }
+}
